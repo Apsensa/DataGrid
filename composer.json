@@ -5,6 +5,7 @@
     "homepage": "https://github.com/Apsensa/DataGrid",
     "type": "symfony-bundle",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Przemyslaw Golec",
