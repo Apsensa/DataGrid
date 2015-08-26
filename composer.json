@@ -1,0 +1,32 @@
+{
+    "name": "apsensa/datagrid-bundle",
+    "description": "Symfony2 Datagrid Bundle",
+    "keywords": ["Symfony", "datagrid"],
+    "homepage": "https://github.com/Apsensa/DataGrid",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Przemyslaw Golec",
+            "email": "golec.przemyslaw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.0.0",
+        "twig/twig": ">=1.5.0"
+    },
+    "suggest": {
+        "ext-intl": "Translate the grid",
+        "ext-mbstring": "Convert your data with the right charset",
+        "PHPExcel": "Export the grid (Excel, HTML or PDF)"
+    },
+    "autoload": {
+        "psr-4": { "Apsensa\\DataGridBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "master": "0.1-dev"
+        }
+    }
+}
